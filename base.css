@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,Arial sans-serif;
+}
+.grid{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+@keyframes animation-open{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+@keyframes modal-open{
+    0%{
+        transform: translateY(-1000%);
+    }
+    40%{
+        transform: translateY(-150%);
+    }
+    60%{
+        transform: translateY(-100%);
+    }
+    80%{
+        transform: translateY(-50%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes header-notifi-anm{
+    from{
+        transform: scale(0);
+    }to{
+        transform: scale(1);
+    }
+}
